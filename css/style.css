@@ -1,0 +1,97 @@
+body
+{
+    margin:0;
+    background-color: black;
+    text-decoration: none;
+}
+/* header */
+.header-top-nav
+{
+    height:8%;
+    width:76.5%;
+    /* backdrop-filter: blur( 4px ); */
+    background-color: #101010;
+    /* background-color: yellow; */
+    margin:1% 0 0 23.1%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    display: flex;
+}
+.header-left
+{
+    background-color: #101010;
+    /* background-color: antiquewhite; */
+    width:22%;
+    height:16%;
+    margin-top:-5.2%;
+    margin-left:0.5%;
+    border-radius: 10px;
+    color:#ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    display:block;
+
+}
+.header-left-home:hover
+{
+    color: green;
+}
+.header-left-search:hover
+{
+    color:green;
+}
+
+.header-icon
+{
+    color:white;
+    font-size: 2rem;
+    margin-left:3%;
+    padding-top:18px;
+}
+.fa-arrow-circle-left:hover
+{
+   color: #6f6f6f;
+}
+.fa-arrow-circle-right:hover
+{
+   color: #6f6f6f;
+}
+.header-buttons
+{
+    margin-left:75%;
+}
+.header-button-sign-up
+{
+    color:grey;
+    height:70%;
+    width:120px;
+    background-color: #101010;
+    border:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.header-button-sign-up:hover
+{
+    background-color: #6f6f6f;
+    color:black;
+}
+.header-button-log-in
+{
+    color:black;
+    height:70%;
+    width:120px;
+    border:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    /* letter-spacing: 1px; */
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+.header-button-log-in:hover
+{
+    background-color: #6f6f6f;
+
+}
+/* header end */
