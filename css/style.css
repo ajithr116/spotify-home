@@ -1,16 +1,18 @@
 body
 {
     margin:0;
-    background-color: black;
+    background-color: yellow;
     text-decoration: none;
 }
 /* header */
 .header-top-nav
 {
+    position: fixed;
     height:8%;
     width:76.5%;
-    /* backdrop-filter: blur( 4px ); */
-    background-color: #101010;
+    backdrop-filter: blur( 4px );
+    /* background-color: #101010; */
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay with transparency */
     /* background-color: yellow; */
     margin:1% 0 0 23.1%;
     border-top-left-radius:10px;
@@ -19,28 +21,41 @@ body
 }
 .header-left
 {
+    position: fixed;
     background-color: #101010;
     /* background-color: antiquewhite; */
     width:22%;
-    height:16%;
-    margin-top:-5.2%;
+    height:14%;
+    margin-top:1%;
     margin-left:0.5%;
     border-radius: 10px;
     color:#ffffff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     display:block;
-
+    align-items: center;
+    justify-content: center;
+}
+.header-left-home
+{
+    margin-top:-10px;
+    padding-left:20px;
+    color:white;
 }
 .header-left-home:hover
 {
-    color: green;
+    color: white;
+}
+.header-left-search
+{
+    padding-left:20px;
+    color:grey;
 }
 .header-left-search:hover
 {
-    color:green;
+    color:white;
 }
-
+/* top small nav */
 .header-icon
 {
     color:white;
@@ -62,10 +77,11 @@ body
 }
 .header-button-sign-up
 {
-    color:grey;
-    height:70%;
+    color:white;
+    height:60%;
     width:120px;
-    background-color: #101010;
+    backdrop-filter:blur(1px);
+    background-color: rgba(0, 0, 0, 0.4); /* Black overlay with transparency */
     border:none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:medium;
@@ -75,12 +91,12 @@ body
 .header-button-sign-up:hover
 {
     background-color: #6f6f6f;
-    color:black;
+    color:white;
 }
 .header-button-log-in
 {
     color:black;
-    height:70%;
+    height:60%;
     width:120px;
     border:none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -95,3 +111,132 @@ body
 
 }
 /* header end */
+
+/* left big nav */
+.left-big-nav
+{
+    background-color: white;
+    width:22%;
+    height:75%;
+    position:fixed;
+    margin-left:0.5%;
+    margin-top:8.5%;
+    border-radius: 10px;
+    background-color: black;
+    color:grey;
+}
+.left-nav-top
+{
+    display:flex;
+    align-items: center;
+}
+.library-icon
+{
+    padding-left:6%;
+    font-size: 20px;
+}
+.library
+{
+    padding-left:13px;
+    padding-bottom: 3px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+.library:hover 
+{
+    color:white;
+}
+.plus
+{
+    padding-left:60%;
+    font-size: 20px;
+    padding-top:5px;
+}
+.plus:hover
+{
+    color:white;
+}
+/* left big nav end */
+
+/* left-big-nav-middle */
+
+.left-big-nav-middle
+{
+    background-color:#242424;
+    margin:0 2% 0 2%;
+    border-radius:10px;
+}
+.left-middle-heading
+{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:3% 0 0 5%;
+    font-size:15px;
+    letter-spacing: 1px;;
+}
+.left-middle-para
+{
+    color:grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0 0 0 5%;
+    font-size:13px;
+    font-weight: 100;
+    letter-spacing: 1px;;
+}
+.left-middle-button
+{
+    width:30%;
+    height:5%;
+    border-radius: 20px;
+    border:none;
+    font-size: small;
+    color:black;
+    text-align: center;
+    margin:5% 0 5% 5%;
+}
+.left-middle-button:hover
+{
+    background-color:#6f6f6f;
+    color:black;
+}
+/* left-big-nav-middle end */
+
+/* left bif bottom */
+
+.left-bottom-list
+{
+    padding:150px 0 0 40px;
+}
+.left-bottom-list
+{
+    margin-left:-10px;
+    /* padding:35% 0 0 0; */
+}
+
+.left-bottom-list li
+{
+    padding:10px 10px 10px 0;
+    display:inline-block;
+    font-size:small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+.bottom-lang
+{
+    width:30%;
+    height:5%;
+    background-color: black;
+    color:white;
+    border:0.5px solid #6f6f6f;
+    font-size: smaller;
+    margin:0 0 0 6%;
+    border-radius:20px;
+    text-align: center;
+}
+.bottom-lang:hover
+{
+    border:1px solid white;
+}
+/* left big bottom end */
+
+
+
