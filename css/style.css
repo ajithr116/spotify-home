@@ -407,7 +407,7 @@ hr
 }
 .adv button:hover
 {
-    background-color: grey;
-    color:white;
+    background-color: rgb(156, 182, 253);
+    color:black;
 }
 /* ad end */
