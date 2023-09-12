@@ -247,8 +247,9 @@ body
     background-color:#242424;
     width:76.5%;
     margin-left:23.1%;
-    height:500%;
+    height:240%;
     margin-top: 95px;
+    margin-bottom:4.5%;
     border-radius:10px;
 }
 .body-playlist-heading,.body-sleep-heading
@@ -316,3 +317,97 @@ img
 
 /* main body ends */
 
+
+/* footer 1 */
+.footer1 ul 
+{
+    display: inline-block;
+    vertical-align:top; /* Align the columns to the top of the footer */
+    margin-right: 20px; 
+    list-style: none; 
+    color:grey;
+    padding-top:100px;
+}
+.footer1 ul li
+{
+    padding:0 10px 10px 10px;
+    letter-spacing:0.5px;
+    font-family: 100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.footer1 ul li:hover
+{
+    color:white;
+    text-decoration: underline;
+}
+.footer1 ul li b
+{
+    color:white;
+    padding-bottom:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+hr
+{
+    font-weight: 100;
+}
+/* footer 1 end */
+
+/* footer 2 */
+
+.footer2
+{
+    color:grey;
+    padding: 0 0 0 40px;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+
+}
+.footer2 i
+{
+    padding: 0 10px 0 0;
+}
+
+/* footer 2 ends */
+
+/* ad */
+
+.adv
+{
+    margin:-84% 0.5% 0 0.5%;
+    position:fixed;
+    width:99%;
+    height:80px;
+    background-color: red;
+    background-image: linear-gradient(to right, #ae2997 , #519bf5);
+    border-radius:3px;
+}
+.adv h4
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    padding:0 0 0 10px;
+    color:white;
+}
+.adv p
+{
+    padding:0 0 0 10px;
+    margin:-15px 0 0 0;
+    color:white;
+    font-weight:100px;
+    
+}
+.adv button
+{
+    margin: -2.5% 0 0 90%;
+    width:9%;
+    height:45px;
+    border-radius:50px;
+    border:none;
+    align-items: center;
+}
+.adv button:hover
+{
+    background-color: grey;
+    color:white;
+}
+/* ad end */
